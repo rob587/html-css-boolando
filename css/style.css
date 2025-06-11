@@ -108,11 +108,14 @@ p{
     font-family: 'Ubuntu';
 }
 
+.wrapper{
+    position: relative;
+}
+
 
 
 .card{
     margin: 10px;
-    position: relative;
 }
 
 .uppercase{
@@ -134,11 +137,28 @@ p{
 
 }
 
+.bg-green{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.discount-green{
+    position: absolute;
+    bottom: 20px;
+    left:45px;
+    
+    
+}
+
 .discount{
   padding: 5px;
   color: white;
   position: absolute;
-  right: 20px;
+  bottom: 20px;
+  left: 0;
+
+}
 
 
 
