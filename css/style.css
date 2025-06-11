@@ -112,8 +112,6 @@ p{
     position: relative;
 }
 
-
-
 .card{
     margin: 10px;
 }
@@ -163,6 +161,24 @@ p{
         bottom: 20px;
     left:0;
 }
+
+.front-image{
+    display: block;
+}
+
+.back-image{
+    display: none
+}
+
+.card:hover .front-image{
+    display: none;
+}
+
+.card:hover .back-image{
+    display: block;
+}
+
+/* main terminato */
 
 
 
