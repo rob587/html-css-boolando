@@ -59,5 +59,43 @@ a:active {
 
 /* Fine header */
 
+/* inizio main */
+
+main{
+    padding-top: 100px;
+    margin: 0px 10px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: 400px;
+}
+
+.h-500{
+    height: 500px;
+}
+ 
+
+.bg-black{
+    background-color: rgb(150, 57, 57);
+}
+
+.b-black{
+    border: 1px black solid;
+}
+
 
 
