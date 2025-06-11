@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header content */
+
+header{
+    background-color: #ff6900;
+}
+
+li{
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.site-logo{
+    margin-right: 120px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-logo{
+    width:200px;
+    padding: 5px;
+}
+
