@@ -104,12 +104,15 @@ img{
     height: 100%;
 }
 
-.card{
-    margin: 10px;
-}
-
 p{
     font-family: 'Ubuntu';
+}
+
+
+
+.card{
+    margin: 10px;
+    position: relative;
 }
 
 .uppercase{
@@ -125,6 +128,17 @@ p{
 .line{
     text-decoration:line-through;
 }
+
+.bg-red{
+    background-color: red;
+
+}
+
+.discount{
+  padding: 5px;
+  color: white;
+  position: absolute;
+  right: 20px;
 
 
 
