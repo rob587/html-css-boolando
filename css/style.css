@@ -193,5 +193,24 @@ p{
 
 /* main terminato */
 
+/* inizio footer */
+
+
+footer{
+    background-color: #1b1a1b;
+    font-family: 'Ubuntu';
+    width: 100%;
+    z-index: 1;
+}
+
+.bottom-footer{
+    display:flex;
+    justify-content: space-around;
+}
+
+.f-title, h2{
+    color: white;
+}
+
 
 
