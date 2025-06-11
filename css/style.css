@@ -84,17 +84,28 @@ main{
     width: 400px;
 }
 
-.h-500{
-    height: 500px;
-}
+
  
 
-.bg-black{
+/* .bg-black{ 
     background-color: rgb(150, 57, 57);
+}*/
+
+/* .b-black{ 
+    border: 1px black solid;
+}*/
+
+/* fine struttura */
+
+/* inizio layout */
+
+img{
+    max-width: 100%;
+    height: 100%;
 }
 
-.b-black{
-    border: 1px black solid;
+.card{
+    margin: 10px;
 }
 
 
