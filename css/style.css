@@ -6,10 +6,6 @@
 
 /* header content */
 
-header{
-    background-color: #ff6900;
-}
-
 li{
     padding: 10px;
 }
@@ -46,11 +42,19 @@ a:active {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ff6900;
+    
 }
 
 .main-logo{
     width:200px;
     padding: 5px;
+}
+
+.position-fixed{
+    position: fixed;
 }
 
 /* Fine header */
