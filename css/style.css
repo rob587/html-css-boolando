@@ -114,6 +114,7 @@ p{
 
 .card{
     margin: 10px;
+    position: relative;
 }
 
 .uppercase{
@@ -155,6 +156,18 @@ p{
   position: absolute;
   bottom: 20px;
   left: 0;
+}
+
+.heart{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: 40px;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
 }
 
 .last{
